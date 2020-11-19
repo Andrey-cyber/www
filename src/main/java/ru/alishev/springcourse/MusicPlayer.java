@@ -4,11 +4,11 @@ package ru.alishev.springcourse;
  * @author Neil Alishev
  */
 public class MusicPlayer {
-    private Music music;
+    private Music music1;
 
     // IoC
-    public MusicPlayer(Music music) {
-        this.music = music;
+    public MusicPlayer(Music music1) {
+        this.music1 = music1;
     }
 
     public MusicPlayer() {
